@@ -1,0 +1,12 @@
+[package]
+name = "nuhope"
+version = "0.1.0"
+authors = ["Lukas Prokop <lukas.prokop@iaik.tugraz.at>"]
+edition = "2018"
+
+[profile.release]
+lto = true
+
+[dependencies]
+rand = "0.7"
+tiny-keccak = "1.5.0"
